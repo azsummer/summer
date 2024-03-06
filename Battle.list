@@ -1,0 +1,18 @@
+# Battle
+DOMAIN,prod.actual.battle.net
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,cdn.arkoselabs.com
+DOMAIN,prod-ireland.arkoselabs.com
+DOMAIN,www.battle.net
+DOMAIN,account.battle.net
+DOMAIN,content-ui.battle.net
+DOMAIN,bnetcmsus-a.akamaihd.net
+DOMAIN,bnetproduct-a.akamaihd.net
+DOMAIN,eu.battle.net
+DOMAIN,us.battle.net
+DOMAIN,kr.battle.net
+DOMAIN,tw.battle.net
+DOMAIN,kr.actual.battle.net
+DOMAIN,us.actual.battle.net
+DOMAIN,eu.actual.battle.net
+DOMAIN,blizzard.gcdn.cloudn.co.kr
