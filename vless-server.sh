@@ -7855,7 +7855,7 @@ install_xray() {
         apk add --no-cache gcompat libc6-compat &>/dev/null
     fi
     _install_binary "xray" "XTLS/Xray-core" \
-        'https://github.com/XTLS/Xray-core/releases/download/v$version/Xray-linux-${xarch}.zip' \
+        'https://github.anzu.vip/https://github.com/XTLS/Xray-core/releases/download/v$version/Xray-linux-${xarch}.zip' \
         'unzip -oq "$tmp/pkg" -d "$tmp/" && install -m 755 "$tmp/xray" /usr/local/bin/xray && mkdir -p /usr/local/share/xray && cp "$tmp"/*.dat /usr/local/share/xray/ 2>/dev/null; fix_selinux_context' \
         "$channel" "$force" "$version_override"
 }
@@ -7874,7 +7874,7 @@ install_singbox() {
         apk add --no-cache gcompat libc6-compat &>/dev/null
     fi
     _install_binary "sing-box" "SagerNet/sing-box" \
-        'https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-linux-${sarch}.tar.gz' \
+        'https://github.anzu.vip/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-linux-${sarch}.tar.gz' \
         'tar -xzf "$tmp/pkg" -C "$tmp/" && install -m 755 "$(find "$tmp" -name sing-box -type f | head -1)" /usr/local/bin/sing-box' \
         "$channel" "$force" "$version_override"
 }
@@ -9969,7 +9969,7 @@ install_naive() {
     esac
     
     _info "安装 NaïveProxy (Caddy with forwardproxy)..."
-    
+     
     local tmp=$(mktemp -d)
     
     # 获取 tar.xz 下载链接 (使用 jq 解析 JSON)
